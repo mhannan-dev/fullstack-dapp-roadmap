@@ -1,102 +1,111 @@
 # 🚀 Fullstack Blockchain Developer Roadmap
 
-This is a complete learning roadmap for becoming a Fullstack Blockchain (dApp) Developer, especially if you're coming from a **Fastify, Vue.js, or React.js** background.
+A complete step-by-step guide to become a **Fullstack Blockchain (dApp) Developer**, crafted for web developers who know **Fastify**, **Vue.js**, **React.js**, **Laravel**, **Django**, or **Express.js**.
 
 ---
 
 ## 📅 Week-by-Week Plan
 
 ### ✅ Week 1: Blockchain & Web3 Basics
-- [ ] Learn how blockchain works
-- [ ] Study Ethereum, smart contracts, and wallets
-- [ ] Explore gas, transactions, and Etherscan
-- [ ] Setup MetaMask wallet
-- [ ] Read: [Ethereum Dev Portal](https://ethereum.org/en/developers/)
-- [ ] Practice: [CryptoZombies](https://cryptozombies.io/)
+- [ ] Understand blockchain, decentralization, and Ethereum
+- [ ] Learn how wallets and transactions work
+- [ ] Install and use MetaMask
+- [ ] Explore Etherscan
+- [ ] 🎮 Practice: [CryptoZombies](https://cryptozombies.io/)
+- [ ] 📖 Read: [Ethereum Dev Portal](https://ethereum.org/en/developers/)
 
-### ✅ Week 2–3: Solidity & Smart Contracts
-- [ ] Learn Solidity (0.8+)
+---
+
+### ✅ Week 2–3: Smart Contracts with Solidity
+- [ ] Learn Solidity (v0.8+)
+- [ ] Use Remix to deploy basic contracts
 - [ ] Build ERC-20 and ERC-721 tokens
-- [ ] Use Remix IDE for testing
-- [ ] Migrate to Hardhat for local dev
-- [ ] Use OpenZeppelin smart contract templates
-- [ ] Build a basic voting contract
-- [ ] Resource: [Solidity by Example](https://solidity-by-example.org/)
+- [ ] Switch to Hardhat for local development
+- [ ] Use OpenZeppelin contracts
+- [ ] 📘 Reference: [Solidity by Example](https://solidity-by-example.org/)
 
-### ✅ Week 4–5: dApp Frontend (React or Vue)
-- [ ] Setup React (Vite/Next.js) or Vue 3 app
-- [ ] Learn ethers.js (or web3.js)
-- [ ] Connect to MetaMask wallet
-- [ ] Read/write contract data
-- [ ] Handle wallet events and transactions
-- [ ] Project: Token Faucet or NFT Viewer
+---
 
-### ✅ Week 6–7: Fastify Backend + Web3 APIs
-- [ ] Setup Fastify + DB (MongoDB or PostgreSQL)
-- [ ] Create wallet-based auth system
-- [ ] Store off-chain metadata securely
-- [ ] Listen for contract events using ethers.js
-- [ ] Project: NFT Marketplace Backend
+### ✅ Week 4–5: dApp Frontend (Vue or React)
+- [ ] Setup Vue 3 or React (Vite/Next.js)
+- [ ] Learn `ethers.js` or `web3.js`
+- [ ] Connect dApp to MetaMask
+- [ ] Read/write data from smart contracts
+- [ ] Handle wallet events and errors
+- [ ] 🛠️ Project: NFT Viewer or Token Faucet
 
-### ✅ Week 8–9: IPFS, The Graph, Oracles
-- [ ] Learn how to use IPFS via Pinata/Web3.storage
-- [ ] Upload and fetch metadata
-- [ ] Learn The Graph: create and deploy subgraph
-- [ ] Use Chainlink price oracles
-- [ ] Project: Web3 Blog or Price Feed dApp
+---
 
-### ✅ Week 10–12: Capstone Projects + Deployment
-- [ ] Choose 1–2 projects:
+### ✅ Week 6–7: Backend Integration (Fastify / Express / Django / Laravel)
+- [ ] Setup a backend using your preferred framework
+- [ ] Create wallet-based authentication
+- [ ] Store off-chain data securely (IPFS references, metadata)
+- [ ] Listen for contract events via WebSocket
+- [ ] 🛠️ Project: NFT Marketplace Backend
+
+---
+
+### ✅ Week 8–9: IPFS, The Graph & Chainlink
+- [ ] Use IPFS via Pinata or Web3.storage
+- [ ] Upload and fetch metadata files
+- [ ] Build subgraphs using The Graph
+- [ ] Integrate Chainlink for oracles
+- [ ] 🛠️ Project: Web3 Blog or DeFi Price Feed
+
+---
+
+### ✅ Week 10–12: Final Projects & Deployment
+- [ ] Choose 1–2 advanced projects:
   - NFT Marketplace
   - DAO Voting System
-  - DeFi Staking Platform
-- [ ] Deploy smart contracts to Sepolia/Base Goerli
-- [ ] Host frontend (Vercel) and backend (Fly.io/Railway)
-- [ ] Verify contracts on Etherscan
-- [ ] Use Alchemy/Infura RPC providers
+  - DeFi Staking dApp
+- [ ] Deploy contracts to Sepolia or Base Goerli
+- [ ] Use Alchemy or Infura RPCs
+- [ ] Host frontend on Vercel, backend on Fly.io or Railway
+- [ ] Verify smart contracts on Etherscan
 
 ---
 
-## 📦 Tools and Stack
+## 🛠️ Tech Stack Overview
 
-### Smart Contracts
-- [ ] Solidity
-- [ ] Hardhat
-- [ ] OpenZeppelin
+### 🧾 Smart Contracts
+- Solidity  
+- Hardhat  
+- OpenZeppelin  
 
-### Frontend
-- [ ] Vue 3 / React / Next.js
-- [ ] ethers.js / wagmi
-- [ ] RainbowKit (React)
+### 🎨 Frontend
+- Vue 3 / React / Next.js  
+- ethers.js / web3.js / wagmi  
+- RainbowKit (React wallet UI)
 
-### Backend
-- [ ] Fastify
-- [ ] Prisma or Mongoose
-- [ ] WebSocket/SSE for events
+### ⚙️ Backend
+- Fastify / Express.js / Django / Laravel  
+- Prisma / Mongoose / Django ORM / Laravel Eloquent  
+- WebSockets or Server-Sent Events (SSE)
 
-### Decentralized Stack
-- [ ] IPFS
-- [ ] Pinata or Web3.storage
-- [ ] The Graph
-- [ ] Chainlink
-
----
-
-## 🧠 Optional Advanced Topics
-- [ ] zk-SNARKs and ZK-Rollups
-- [ ] Account Abstraction (ERC-4337)
-- [ ] Layer 2s: Arbitrum, Polygon, Base
-- [ ] Cross-chain communication
-- [ ] Tokenomics and DAO tools
+### 📡 Decentralized Infrastructure
+- IPFS (via Pinata or Web3.storage)  
+- The Graph  
+- Chainlink  
 
 ---
 
-## 📘 Recommended Repositories & Links
-- [Solidity by Example](https://github.com/raineorshine/solidity-by-example)
-- [Awesome Web3](https://github.com/ChainSafe/awesome-web3)
-- [Hardhat Boilerplate](https://github.com/nomiclabs/hardhat-boilerplate)
-- [Fullstack dApp Template](https://github.com/PatrickAlphaC/full-stack-solidity-tutorial-py)
+## 🔍 Advanced Topics (Optional)
+- zk-SNARKs & ZK-Rollups  
+- Layer 2s: Arbitrum, Optimism, Polygon, Base  
+- Account Abstraction (ERC-4337)  
+- Cross-chain protocols (Axelar, LayerZero)  
+- Tokenomics & DAO governance  
 
 ---
 
-Happy BUIDLing! 🛠️
+## 🔗 Recommended Repositories & Links
+- [Solidity by Example](https://github.com/raineorshine/solidity-by-example)  
+- [Hardhat Boilerplate](https://github.com/nomiclabs/hardhat-boilerplate)  
+- [Fullstack dApp Tutorial](https://github.com/PatrickAlphaC/full-stack-solidity-tutorial-py)  
+- [Awesome Web3](https://github.com/ChainSafe/awesome-web3)  
+
+---
+
+## 🗂 Suggested Project Structure
+
