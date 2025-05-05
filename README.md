@@ -1,4 +1,4 @@
-# 🚀 Fullstack Blockchain Developer Roadmap (GitHub Learning Template)
+# 🚀 Fullstack Blockchain Developer Roadmap
 
 This is a complete learning roadmap for becoming a Fullstack Blockchain (dApp) Developer, especially if you're coming from a **Fastify, Vue.js, or React.js** background.
 
